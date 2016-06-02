@@ -1,0 +1,9 @@
+diff a/MazeServer2.0.0/gocode/src/guanghuan.com/xiaoyao/tools/resimporter/business_goods.go b/MazeServer2.0.0/gocode/src/guanghuan.com/xiaoyao/tools/resimporter/business_goods.go	(rejected hunks)
+@@ -119,6 +119,7 @@
+ 		Optype: optype,
+ 	}
+ 
++	xylog.DebugNoId(" mallitem : %v", mallitem)
+ 
+ 	op.Mallitem = mallitem
+ 	*ops = append(*ops, op)

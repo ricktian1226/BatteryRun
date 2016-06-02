@@ -1,0 +1,7 @@
+#ignore .metadata
+.metadata
+#.gitignore
+#ignore exe file
+*.exe
+#ignore txt file
+*.txt

@@ -1,0 +1,3 @@
+Id	ViewUrl	MaterialUrl	ClickUrl
+1	www.baidu.com	ad/ad.jpg	https://itunes.apple.com/cn/app/xiao-yu-fei-fei/id915686613
+2	www.baidu.com	ad/ad.jpg	https://itunes.apple.com/cn/app/xiao-yu-fei-fei/id915686613

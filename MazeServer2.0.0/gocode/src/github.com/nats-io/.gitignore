@@ -1,0 +1,6 @@
+#ignore .metadata
+.metadata
+#.gitignore
+#ignore tar.gz file
+*.tar.gz
+bk

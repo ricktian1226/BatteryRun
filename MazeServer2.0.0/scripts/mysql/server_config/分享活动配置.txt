@@ -1,0 +1,2 @@
+Id	Type	GoalValue	DailyLimit	DispenseType	ActivityBeginTime	ActivityEndTime	Restart	Valid	MailId	AwardsBegintime	AwardsEndtime
+2	2	7	1	1			1	1	0		

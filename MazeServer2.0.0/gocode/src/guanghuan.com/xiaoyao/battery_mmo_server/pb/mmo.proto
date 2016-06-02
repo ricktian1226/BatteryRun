@@ -1,0 +1,65 @@
+package xymmopb;
+
+enum CMD_CODE{
+    CMD_GenerateUid = 0; //uid生成命令码
+	CMD_Start = 1;	     //客户端开始命令码
+	CMD_GameStart = 2;   //服务端游戏开始命令码
+	CMD_Action = 3;      //客户端/服务端动作命令码
+	CMD_GameOver = 4;    //服务端游戏结束命令码
+}
+
+message Map{
+    required uint32 id = 1;//map编号
+}
+
+message Player{
+    required uint32 uid = 1;
+}
+
+message Coordinate{
+    optional int32 x = 1;
+    optional int32 y = 2;
+}
+
+enum Direction{
+    UP = 0;
+	DOWN = 1;
+	LEFT = 2;
+	RIGHT = 3;
+}
+
+message Action{
+    required Player    player    = 1; //玩家
+	required uint32    timestamp = 2; //时间戳，单位:微秒
+    optional Direction direction = 3; //方向
+	optional Coordinate coordinate = 4;//坐标
+}
+
+//服务端uid生成消息
+message MsgUid{
+    required uint32 uid = 1;//用户uid
+}
+
+//客户端开始消息
+message MsgStart{
+    required Player player = 1;
+}
+
+//服务端游戏开始消息
+message MsgGameStart{
+    optional Map map = 1;
+	repeated Player players = 2;
+}
+
+//动作消息
+message MsgAction{
+    repeated Action actions = 1;
+}
+
+//ping消息
+message MsgPing{
+}
+
+//游戏结束
+message MsgGameOver{
+}

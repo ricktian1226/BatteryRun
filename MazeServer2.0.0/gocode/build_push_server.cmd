@@ -1,0 +1,1 @@
+go build -o push_server.exe -race .\src\guanghuan.com\xiaoyao\push_server

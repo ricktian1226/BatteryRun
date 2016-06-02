@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+function getQueryStringValue (key) {  
+  return unescape(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + escape(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  
+}  
+
+function return_to_app(delay) {
+	setTimeout(function(){
+			// location = response?code=xxxx
+			var auth_code = getQueryStringValue("code");
+			var app_url = "xybr20://wb_authorize?"+"code="+auth_code;
+//			alert(app_url);
+			window.location.assign(app_url);
+		},delay);
+}
+</script>
+</head>
+<body onload="return_to_app(3000)">
+
+<p>授权成功，3秒后返回</p>
+<p>
+<input type="button" value="手动返回" onclick="return_to_app(1)">
+</p>
+</body>
+</html>

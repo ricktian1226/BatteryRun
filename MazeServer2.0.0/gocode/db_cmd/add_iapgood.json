@@ -1,0 +1,27 @@
+/* 0 */
+{
+  "goodid" : "guanghuan_battery_run_100_diamonds",
+  "count" : 100,
+  "price" : 1
+}
+
+/* 1 */
+{
+  "goodid" : "guanghuan_battery_run_320_diamonds",
+  "count" : 320,
+  "price" : 3
+}
+
+/* 2 */
+{
+  "goodid" : "guanghuan_battery_run_1800_diamonds",
+  "count" : 180,
+  "price" : 15
+}
+
+/* 3 */
+{
+  "goodid" : "guanghuan_battery_run_4800_diamonds",
+  "count" : 4800,
+  "price" : 30
+}

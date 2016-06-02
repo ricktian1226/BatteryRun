@@ -1,0 +1,131 @@
+/* 体力 0 */
+{
+  "id" : "20001",
+  "category" : 2,
+  "allgoods" : [{
+      "resource" : 1,
+      "amount" : 5,
+      "xxx_unrecognized" : new BinData(0, "")
+    }],
+  "price" : {
+    "amount" : 30,
+    "currency" : 2,
+    "xxx_unrecognized" : new BinData(0, "")
+  },
+  "displaydiscount" : 0,
+  "expireddate" : NumberLong(-1),
+  "isenabled" : true,
+  "amountremain" : -1,
+  "maxamountperuser" : -1,
+  "hidefromshop" : false,
+  "createdate" : NumberLong(1397617205),
+  "goodstype" : 1,
+  "displaybestdeal" : false,
+  "xxx_unrecognized" : new BinData(0, "")
+}
+
+/* 体力 1 */
+{
+  "id" : "20002",
+  "category" : 2,
+  "allgoods" : [{
+      "resource" : 1,
+      "amount" : 30,
+      "xxx_unrecognized" : new BinData(0, "")
+    }],
+  "price" : {
+    "amount" : 150,
+    "currency" : 2,
+    "xxx_unrecognized" : new BinData(0, "")
+  },
+  "displaydiscount" : 0,
+  "expireddate" : NumberLong(-1),
+  "isenabled" : true,
+  "amountremain" : -1,
+  "maxamountperuser" : -1,
+  "hidefromshop" : false,
+  "createdate" : NumberLong(1397617205),
+  "goodstype" : 1,
+  "displaybestdeal" : false,
+  "xxx_unrecognized" : new BinData(0, "")
+}
+
+/* 体力 2 */
+{
+  "id" : "20003",
+  "category" : 2,
+  "allgoods" : [{
+      "resource" : 1,
+      "amount" : 60,
+      "xxx_unrecognized" : new BinData(0, "")
+    }],
+  "price" : {
+    "amount" : 320,
+    "currency" : 2,
+    "xxx_unrecognized" : new BinData(0, "")
+  },
+  "displaydiscount" : 0,
+  "expireddate" : NumberLong(-1),
+  "isenabled" : true,
+  "amountremain" : -1,
+  "maxamountperuser" : -1,
+  "hidefromshop" : false,
+  "createdate" : NumberLong(1397617205),
+  "goodstype" : 1,
+  "displaybestdeal" : false,
+  "xxx_unrecognized" : new BinData(0, "")
+}
+
+/* 体力 3 */
+{
+  "id" : "20004",
+  "category" : 2,
+  "allgoods" : [{
+      "resource" : 1,
+      "amount" : 99,
+      "xxx_unrecognized" : new BinData(0, "")
+    }],
+  "price" : {
+    "amount" : 520,
+    "currency" : 2,
+    "xxx_unrecognized" : new BinData(0, "")
+  },
+  "displaydiscount" : 0,
+  "expireddate" : NumberLong(-1),
+  "isenabled" : true,
+  "amountremain" : -1,
+  "maxamountperuser" : -1,
+  "hidefromshop" : false,
+  "createdate" : NumberLong(1397617205),
+  "goodstype" : 1,
+  "displaybestdeal" : true,
+  "xxx_unrecognized" : new BinData(0, "")
+}
+
+/* 复活 4 */
+{
+  "id" : "10001",
+  "category" : 1,
+  "allgoods" : [{
+      "resource" : 3,
+      "amount" : 1,
+      "xxx_unrecognized" : new BinData(0, "")
+    }],
+  "price" : {
+    "amount" : 30,
+    "currency" : 2,
+    "xxx_unrecognized" : new BinData(0, "")
+  },
+  "displaydiscount" : 0,
+  "expireddate" : NumberLong(-1),
+  "isenabled" : true,
+  "amountremain" : -1,
+  "maxamountperuser" : -1,
+  "hidefromshop" : true,
+  "createdate" : NumberLong(1397617205),
+  "goodstype" : 3,
+  "displaybestdeal" : false,
+  "ingamegoods":true,
+  "maxamountpergame":1,
+  "xxx_unrecognized" : new BinData(0, "")
+}

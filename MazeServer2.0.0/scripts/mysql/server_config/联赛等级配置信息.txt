@@ -1,0 +1,8 @@
+Level	HumanAmount	GroupAmount	PromoteAmount	DemoteAmount
+1	20	30	10	0
+2	20	30	8	0
+3	20	30	6	0
+4	15	20	5	0
+5	20	20	3	0
+6	15	15	3	3
+7	10	10	0	1

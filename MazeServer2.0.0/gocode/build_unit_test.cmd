@@ -1,0 +1,1 @@
+go build -v -o unit_test.exe -race .\src\guanghuan.com\xiaoyao\unittest

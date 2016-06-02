@@ -1,0 +1,1 @@
+protoc --go_out=.\src\guanghuan.com\xiaoyao\push_server2\msgdef  --proto_path=.\src\guanghuan.com\xiaoyao\push_server2\msgdef .\src\guanghuan.com\xiaoyao\push_server2\msgdef\*.proto

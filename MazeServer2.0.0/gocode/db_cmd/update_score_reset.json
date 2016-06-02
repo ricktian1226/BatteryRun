@@ -1,0 +1,96 @@
+{$set:{"total" : {
+    "score" : NumberLong(0),
+    "gold" : NumberLong(0),
+    "goldscore" : NumberLong(0),
+    "distance" : NumberLong(0),
+    "totalcharge" : 0,
+    "combocharge" : 0,
+    "monsterkilled" : [{
+        "id" : "20001",
+        "killed" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "20002",
+        "killed" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "20003",
+        "killed" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }],
+    "itemgained" : [{
+        "id" : "10000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "20000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "30000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "40000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "50000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "60000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }],
+    "xxx_unrecognized" : new BinData(0, "")
+  },
+  "best" : {
+    "score" : NumberLong(0),
+    "gold" : NumberLong(0),
+    "goldscore" : NumberLong(0),
+    "distance" : NumberLong(0),
+    "totalcharge" : 0,
+    "combocharge" : 0,
+    "monsterkilled" : [{
+        "id" : "20001",
+        "killed" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "20002",
+        "killed" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "20003",
+        "killed" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }],
+    "itemgained" : [{
+        "id" : "10000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "20000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "30000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "40000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "50000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }, {
+        "id" : "60000",
+        "amount" : 0,
+        "xxx_unrecognized" : new BinData(0, "")
+      }],
+    "xxx_unrecognized" : new BinData(0, "")
+  } 
+  }
+ }

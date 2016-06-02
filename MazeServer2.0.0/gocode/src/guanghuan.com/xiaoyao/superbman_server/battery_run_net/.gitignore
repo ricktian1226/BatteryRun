@@ -1,0 +1,7 @@
+#ignore .metadata
+.metadata
+#.gitignore
+#ignore go file
+*.go
+#ignore proto file
+*.proto

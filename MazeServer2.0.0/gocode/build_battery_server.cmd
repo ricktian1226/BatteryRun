@@ -1,0 +1,1 @@
+go build -v -o battery_server.exe -race .\src\guanghuan.com\xiaoyao\superbman_server
